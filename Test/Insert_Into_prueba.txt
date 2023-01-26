@@ -1,0 +1,27 @@
+
+conductores
+INSERT INTO conductores ( id, nombre, apellido_paterno, apellido_materno, domicilio, fecha_nacimiento, sexo, firma, num_emergencia, donador, antiguedad, grupo_sanguineo, restricciones ) VALUES( '1', 'sergio', 'gonzalez', 'lopez', 'san samael ', '2002/12/02', 'M', 'xx', '4427794980', 'no', '2002/12/02', 'o+', 'ninguna' );
+
+licencias
+INSERT INTO licencias VALUES( '1', 'A', '2022/01/05', '2023/01/05', 's', 'ninguna', '1' );
+
+multas
+INSERT INTO multas VALUES( '1', '2', '12', '02', '13:55:05', 'otro', 'otro', '55', 'derecho', 'queretaro', 'oxxo', 'nada', 'semaforo', 'tre', 'll', 'kk', '10', '5', 'ningun', 'ontr', '1', '1', '1', '1', '1' );
+
+oficiales
+INSERT INTO oficiales VALUES( '1', 'Juan', 'perez', 'mata', '331', 'xxxx' );
+
+propietarios
+INSERT INTO propietarios ( id, nombre, apellido_paterno, apellido_materno, localidad, municipio, rfc ) VALUES( '1', 'pepe', 'pica', 'papas', 'queretaro', 'queretaro', 'afsvcb5fg67h7' );
+
+vehiculos
+INSERT INTO vehiculos VALUES('1', '1', 'PARTICULAR', 'NISSAN', '2002', '123456', 'A', 'DIESEL', '4', '500', 'FIERRO', 'ROJO', 'AUTOMATICA', '12312312', 'TRES' );
+
+targetas_circulacion
+INSERT INTO tarjetas_circulacion ( id, tipo_servicio, numero_constancia_inscripcion, servicio, origen, folio, fecha_vencimiento, placa, cve_vehicular, uso, operacion, fecha_operacion, oficina_expendidora, movimiento, rfa, id_vehiculo, id_propietario ) 
+VALUES
+( '1', 'particular', '345134', 'ninguno', 'queretaro', '1513', '2023/01/05', 'fsjkfh6', '2345679', 'ninguno', 'ninguno', '2002/12/02', '2', 'otro', '5', '1', '1' );
+
+verificaciones
+INSERT INTO verificaciones ( id, entidad_federativa, municipio, numero_centro_verificacion, numero_linea_verificacion, id_tecnico_verificador, fecha_expedicion, hora_entrada, hora_salida, motivo_verificacion, folio_certificacion, semestre, fecha_vencimiento, id_tarjeta_circulacion ) VALUES
+( '1', 'queretaro', 'queretaro', '2', '1', '1', '2009/05/05', '13:22:01', '20:55:00', 'ninuna', 'otro', '1', '2023/01/05', '1' );

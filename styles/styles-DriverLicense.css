@@ -1,0 +1,121 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: #edf0f1;
+    background-color: #24252a;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: wrap;
+}
+
+.container-title {
+    display: inline-block;
+    flex: 1;
+}
+
+.container-button {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+}
+
+button {
+    font-size: 17px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all0.3s case 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.flex_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px;
+}
+
+form {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    border: 3px solid #1c7;
+    border-radius: 30px;
+}
+
+.label_container:nth-child(n + 2) {
+    margin-top: 30px;
+}
+
+.form_input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #1c7;
+    background: transparent;
+    color: #fff;
+}
+
+.submit_radius {
+    border-radius: 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.form_submit {
+    margin: 35px auto;
+}
+
+.form_input:focus {
+    background: linear-gradient(to bottom, transparent, #222);
+    outline: none;
+    border-bottom: 3px solid #5f9;
+}
+
+form input[type="submit"] {
+    background-color: #094;
+    border-bottom: none;
+    padding: 12px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #072;
+    border-bottom: none;
+    padding: 12px;
+}
+
+form input[type="submit"]:focus {
+    background-color: #094;
+}
+
+form input[type="submit"]:hover {
+    /* background: linear-gradient(to bottom, #072, #050); */
+    /* background: linear-gradient(to bottom, #fff, #fff); */
+    background-color: #fff;
+    color: #094;
+}
